@@ -1,7 +1,6 @@
 package service.dataReadWrite.formats;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.util.StdDateFormat;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import model.User;
 import model.Users;
@@ -11,7 +10,6 @@ import service.dataReadWrite.DataReadWrite;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
-import java.util.TimeZone;
 
 public class XmlDataReaderWriter extends AbstractReadWrite implements DataReadWrite {
 
